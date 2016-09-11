@@ -38,6 +38,9 @@ div[id]
 	padding: 5px;
 	font-weight: bold;
 	font-size: 1.25em;
+	border-width: 0px 0 1px 1px;
+	border-color: #efbcbc;
+	border-style: solid;
 }
 
 #col1 #title
