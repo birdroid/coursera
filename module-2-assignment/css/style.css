@@ -1,0 +1,77 @@
+body
+{
+	background-color: #fff6f6;
+	color: #987171;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 1.75em;
+}
+
+div:not([id])
+{
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	padding-top: 33px;
+	background-color: #fffdf5;
+	border: 1px solid #efbcbc;
+	position: relative;
+}
+
+div[id]
+{
+	float: left;
+	box-sizing: border-box;
+}
+
+
+#title
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 0px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#col1 #title
+{
+	background-color: #e7efdf;
+}
+
+#col2 #title
+{
+	background-color: #efdfdf;
+}
+
+#col3 #title
+{
+	background-color: #efdfed;
+}
+/**************LARGE SCREEN*************/
+@media (min-width: 992px) {
+	div[id] {
+		width: 33.33%;
+	}
+}
+/**************TABLET SCREEN*************/
+@media(min-width: 768px) and (max-width: 991px) {
+	div#col1, div#col2 {
+		width: 50%;
+	}
+	div#col3 {
+		width: 100%
+	}
+}
+/**************NARROW SCREEN*************/
+@media (max-width: 767px) {
+	div[id] {
+		width: 100%;
+	}
+}
