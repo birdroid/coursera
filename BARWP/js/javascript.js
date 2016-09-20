@@ -1,0 +1,4 @@
+
+  $( function() {
+    $( "#accordion div" ).accordion();
+  } );
