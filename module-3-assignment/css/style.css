@@ -35,6 +35,7 @@ h1, h3, .navbar-brand, ul > li > a {
 
 .navbar-brand {
 	font-size: 28px;
+	padding-left: 26px;
 }
 
 ul > li > a {
