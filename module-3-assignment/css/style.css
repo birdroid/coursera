@@ -1,0 +1,47 @@
+body {
+	background-color: #F7E7E7;
+	background-image: url("../img/bg.png");
+}
+
+nav {
+	background-color: #fff7f7 !important;
+}
+
+nav a {
+	color: #f06c6c !important;
+}
+
+button:hover, button:focus{
+	background-color: #fff !important;
+}
+
+.menu-p {
+	/*background-color: #F7E7E7;*/
+	background-color: #fff;
+	border: 1px solid #C37A7A;
+	border-radius: 15px;
+	padding: 5px 10px;
+	margin-top: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;	
+}
+
+/*.container > div {	
+    box-shadow: 0px 10px 50px 0px inset;
+}*/
+
+h1, h3, .navbar-brand, ul > li > a {
+	font-family: 'Lobster', cursive;
+}
+
+.navbar-brand {
+	font-size: 28px;
+}
+
+ul > li > a {
+	font-size: 22px;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
